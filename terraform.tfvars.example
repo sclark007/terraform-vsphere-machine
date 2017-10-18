@@ -1,0 +1,19 @@
+
+hostname = "server"
+datacenter = "datacenter"
+cluster = "cluster"
+cluster_count = "1"
+dns_servers = ["8.8.8.8"]
+dns_suffixes = ["localhost"]
+domain = "localhost"
+network_interface = "VM Network"
+datastore = "datastore1"
+template = "Templates/centos-7"
+type = "thin"
+ssh_user = "root"
+ssh_password = "password"
+vsphere_user = "user"
+vsphere_password = "password"
+vsphere_server = "192.168.192.1"
+memory = "2"
+vcpu = "4096"
