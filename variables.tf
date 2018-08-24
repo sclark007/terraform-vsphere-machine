@@ -3,7 +3,7 @@ variable "ssh_password" {}
 variable "vsphere_user" {}
 variable "vsphere_password" {}
 variable "vsphere_server" {}
-variable "network_interface" {}
+variable "network" {}
 variable "dns_servers" {
   type = "list"
 }
@@ -16,6 +16,6 @@ variable "hostname" {}
 variable "datacenter" {}
 variable "domain" {}
 variable "datastore" {}
-variable "cluster_count" {}
 variable "vcpu" {}
 variable "memory" {}
+variable "count" {}
