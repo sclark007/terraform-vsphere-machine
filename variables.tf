@@ -18,4 +18,4 @@ variable "domain" {}
 variable "datastore" {}
 variable "vcpu" {}
 variable "memory" {}
-variable "count" {}
+variable "host_count" {}
